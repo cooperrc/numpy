@@ -1,3 +1,4 @@
+.. _absolute-beginners:
 
 ****************************************
 NumPy: the absolute basics for beginners

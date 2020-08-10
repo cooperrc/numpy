@@ -1,7 +1,7 @@
-**********
-Data types
-**********
+************
+NumPy Basics
+************
 
-.. seealso:: :ref:`Data type objects <arrays.dtypes>`
+.. seealso:: :ref:`absolute-beginners`
 
 .. automodule:: numpy.doc.basics

@@ -1,3 +1,5 @@
+..linearalgebra-svd
+
 ================================================
 Tutorial: Linear algebra on n-dimensional arrays
 ================================================
