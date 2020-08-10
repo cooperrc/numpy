@@ -10,6 +10,7 @@ NumPy basics
    basics.io
    basics.indexing
    basics.broadcasting
+   basics.array_types
    basics.byteswapping
    basics.rec
    basics.dispatch
