@@ -11,10 +11,11 @@ classes contained in the package, see the :ref:`API reference <reference>`.
 .. toctree::
    :maxdepth: 1
 
-   basics
-   misc
+   basics.types
+   basics.creation
+   basics.io
+   basics.indexing
+   basics.array_types
    numpy-for-matlab-users
    tutorial-svd
    tutorial-ma
-   building
-   c-info

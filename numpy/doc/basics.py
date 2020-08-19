@@ -4,7 +4,7 @@ NumPy basics
 ============
 
 What is NumPy
-=========================================
+=============
 
 NumPy (Numerical Python) is the fundamental package for scientific computing in Python.
 NumPy creates powerful n-dimensional arrays that fast and versatile. NumPy arrays can be
@@ -17,14 +17,14 @@ sparse array libraries. The high-level NumPy syntax makes NumPy easy to use and 
 for programmers with a wide variety of backgrounds and experience. 
 
 NumPy is distributed under an open source 
-`BSD License <https://github.com/numpy/numpy/blob/master/LICENSE.txt>`, 
+`BSD License <https://github.com/numpy/numpy/blob/master/LICENSE.txt>`_, 
 NumPy is developed and maintained publicly on `GitHub <https://github.com/numpy/numpy>`_
-by a vibrant, responsive, and diverse _community: https://numpy.org/community. 
+by a vibrant, responsive, and diverse `community <https://numpy.org/community>`_. 
 
 Learn more about :ref:`NumPy here <whatisnumpy>`!
 
 Getting Help
-=========================================
+============
 
 You can print out this help document in iPython or Jupyter with::
 
@@ -36,7 +36,7 @@ The full NumPy documentation is rendered in html at https://numpy.org/doc/stable
 If you're just getting started try the :ref:`absolute-beginners`
 
 Every function and object in the NumPy library has docstrings which can be accessed by
-using either ``?`` or ``help()``. For example, to print out the docstring in iPython or a
+using either ``?`` or ``help()``. For example, to print out the ``array`` docstring in iPython or a
 Jupyter notebook you can run either::
 
     >>> ?np.array
@@ -46,13 +46,14 @@ or::
     >>> help(np.array)
 
 You can reach out to the NumPy community for help via the
-`NumPy Discussion Board <numpy-discussion@python.org>` or post your issue on the 
-`NumPy repository <https://github.com/numpy/numpy/issues>`. 
+`NumPy Discussion Board <numpy-discussion@python.org>`_ or post your issue on the 
+`NumPy repository <https://github.com/numpy/numpy/issues>`_. 
 
 Using NumPy
-=========================================
+===========
 
 NumPy is usually imported as ``np`` as such::
+
     >>> import numpy as np
 
 This command allows you to call numpy functions using ``np.function``. As a NumPy
@@ -88,23 +89,25 @@ array. Now, you can use this array for a number of mathematical operations e.g.
 
 * and much more!
 
-There are also lots more ways to create arrays, as seen in <arrays.creation>. Then, there are
-plenty of ways to use arrays including :ref:`linearalgebra-svd`, :ref:`maskarrays`, etc.
+There are also lots more ways to create arrays, as seen in :ref:`arrays.creation`. Then, there are
+plenty of ways to use arrays including :ref:`tutorial-svd`, :ref:`tutorial-ma`, etc.
 
 Next Steps
 ===========
 
 If you're just getting started with Python, check out the 
-`Python tutorial <https://docs.python.org/tutorial/>`__.
+`Python tutorial <https://docs.python.org/tutorial/>`_.
 
 If you're familiar with Python, but new to NumPy, check out the :ref:`absolute-beginners`. 
 
 If you're coming from another array-based computing software like Matlab, you can check
 out the :ref:`numpy-for-matlab-users` or :ref:`quickstart`. 
 
-If you want to see the next ``np.doc`` tutorial, check out :ref:`arrays.creation` or run::
+If you want to see the next ``np.doc`` tutorial, check out :ref:`arrays.creation` or open
+Jupyter or your iPython terminal and run::
+
     >>> import numpy.doc as doc
-    >>> ?doc.creation
+    >>> help(doc.creation)
 
 No matter where you go next, enjoy the speed and efficiency of array-computing in NumPy!
 

@@ -1,6 +1,7 @@
 {% extends "defindex.html" %}
 {% block tables %}
-<p><strong>For users:</strong></p>
+<h1>For users:</h1>
+<h2>Tutorials</h2>
 <table class="contentstable" align="center"><tr>
     <td width="50%">
       <p class="biglink"><a class="biglink" href="{{ pathto("user/setting-up") }}">Setting Up</a><br/>
@@ -9,22 +10,39 @@
 	<span class="linkdescr">Aimed at domain experts or people migrating to NumPy</span></p>
       <p class="biglink"><a class="biglink" href="{{ pathto("user/absolute_beginners") }}">Absolute Beginners Tutorial</a><br/>
 	<span class="linkdescr">Start here for an overview of NumPy features and syntax</span></p>
-      <p class="biglink"><a class="biglink" href="{{ pathto("user/tutorials_index") }}">Tutorials</a><br/>
+      <p class="biglink"><a class="biglink" href="{{ pathto("user/tutorials_index")
+        }}">Focused Tutorials</a><br/>
 	<span class="linkdescr">Learn about concepts and submodules</span></p>
+  </td></tr>
+</table>
+
+<h2>How Tos</h2>
+<table class="contentstable" align="center"><tr>
+    <td width="50%">
       <p class="biglink"><a class="biglink" href="{{ pathto("user/howtos_index") }}">How Tos</a><br/>
 	<span class="linkdescr">How to do common tasks with NumPy</span></p>
+  </td></tr>
+</table>
+<h2>Reference</h2>
+<table class="contentstable" align="center"><tr>
+    <td width="50%">
       <p class="biglink"><a class="biglink" href="{{ pathto("reference/index") }}">NumPy API Reference</a><br/>
         <span class="linkdescr">Automatically generated reference documentation</span></p>
-      <p class="biglink"><a class="biglink" href="{{ pathto("user/explanations_index") }}">Explanations</a><br/>
-	<span class="linkdescr">In depth explanation of concepts, best practices and techniques</span></p>
-      <p class="biglink"><a class="biglink" href="{{ pathto("f2py/index") }}">F2Py Guide</a><br/>
-        <span class="linkdescr">Documentation for the f2py module (Fortran extensions for Python)</span></p>
       <p class="biglink"><a class="biglink" href="{{ pathto("glossary") }}">Glossary</a><br/>
         <span class="linkdescr">List of the most important terms</span></p>
   </td></tr>
 </table>
+<h2>Explanation</h2>
+<table class="contentstable" align="center"><tr>
+    <td width="50%">
+      <p class="biglink"><a class="biglink" href="{{ pathto("user/explanations_index") }}">Explanations</a><br/>
+	<span class="linkdescr">In depth explanation of concepts, best practices and techniques</span></p>
+      <p class="biglink"><a class="biglink" href="{{ pathto("f2py/index") }}">F2Py Guide</a><br/>
+        <span class="linkdescr">Documentation for the f2py module (Fortran extensions for Python)</span></p>
+  </td></tr>
+</table>
 
-<p><strong>For developers/contributors:</strong></p>
+<h1>For developers/contributors:</h1>
 <table class="contentstable" align="center"><tr>
     <td width="50%">
       <p class="biglink"><a class="biglink" href="{{ pathto("dev/index") }}">NumPy Contributor Guide</a><br/>

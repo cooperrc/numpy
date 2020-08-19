@@ -1,4 +1,4 @@
-.. maskarrays
+.. _tutorial-ma:
 
 =======================
 Tutorial: Masked Arrays

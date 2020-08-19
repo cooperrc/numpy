@@ -1,4 +1,4 @@
-..linearalgebra-svd
+.. _tutorial-svd:
 
 ================================================
 Tutorial: Linear algebra on n-dimensional arrays

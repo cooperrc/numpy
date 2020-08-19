@@ -12,3 +12,10 @@ contained in the package, see the :ref:`API reference <reference>`.
    :maxdepth: 1
 
    basics.broadcasting
+   basics.rec
+   basics.dispatch
+   basics.subclassing
+   basics.byteswapping
+   building
+   c-info
+   misc
